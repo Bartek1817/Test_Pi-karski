@@ -1,0 +1,40 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root
+{
+	
+
+}
+
+.chart-bar {
+
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 5 5 0 0, 4 4 0 0, 3 3 0 0;
+ 
+}
+.default-color0.chart-bar { -fx-bar-fill: #3BB273 }
+.default-color1.chart-bar { -fx-bar-fill: #C62A28 }
+
+.chart-title { 
+  -fx-text-fill: #000000; 
+ 
+}
+ 
+.axis-label { 
+  -fx-text-fill:  #000000;
+ 
+}
+
+ 
+ 
+.axis-tick-mark { 
+    -fx-stroke: #000000 ; 
+    -fx-stroke-width: 3;  
+} 
+.axis-minor-tick-mark { 
+    -fx-stroke: #000000; 
+}
+.axis{
+	-fx-tick-label-fill: #000000;
+	-fx-tick-label-font-size:12pt;
+	-fx-font-size: 15pt;  
+}
